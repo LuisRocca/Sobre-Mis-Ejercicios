@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after,*::before {
+    box-sizing: inherit;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px
+}
+body {
+    font-family: arial,helvetica,sans-serif;
+
+
+}
+header {
+    
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+.contenedor {
+    margin: 0 auto;
+    width: 100%;
+}
+div.hero img {
+    width: 100%;
+    height: 400px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #8d1b1b;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+ul.lista-productos {
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+ul.lista-productos li {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+ul.lista-productos li:nth-child(2n+1) {
+    clear: both;
+}
+ul.lista-productos li img {
+    border: 10px solid #8d1b1b;
+}
+ul.lista-productos li img:hover {
+    border: 10px solid #888888;
+}
+ul.lista-productos li p {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+ul.lista-productos li span {
+    font-size: 40px;
+    color: #ffce00;
+
+}
+.boton {
+    background-color: #8d1b1b;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blanchedalmond;
+    
+}
+.boton:hover { 
+    color: rgba(223, 156, 57, 0.925);
+
+}
+ aside {
+width: 100%;
+
+ }
+  div.sobrenosotros {
+     background-color: #ffce00;
+    text-align: center;
+
+ }
+
+ div.sobrenosotros p {
+     color: #ffffff;
+     margin: 40px;
+     padding: 20px, 30px;
+ }
+ footer {
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    padding-top: 60px;
+    width: 100%;
+  
+ }
+ footer h3 {
+     padding: 30px;
+     display: block;
+ }
+.columna-redes ul {
+    position: relative; 
+    
+   
+}
+footer .barra-footer
+{
+background-color: grey; 
+text-align: center;
+padding-right: 15px;
+padding-left: 15px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+footer ul
+{
+padding-left: 0;
+list-style: none;
+margin: 0;
+width: 100;
+}
+
+footer ul li
+{
+margin-bottom: 10px;
+display: inline;
+
+}
+footer a
+{
+color: white;
+}
+
+footer .redes
+{
+font-size: 40px;
+display:  flex;
+}
+
+footer .redes a
+{
+margin: 0 7.5px;
+}
